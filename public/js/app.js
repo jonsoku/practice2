@@ -68472,7 +68472,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_reset__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_reset__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    ", ";\n    a{\n        text-decoration:none;\n        color:inherit;\n    }\n    *{\n        box-sizing:border-box;\n        background-color: var(--light);\n    }\n    body{\n    }\n\n"]);
+  var data = _taggedTemplateLiteral(["\n    ", ";\n    a{\n        text-decoration:none;\n        color:var(--black);\n    }\n    *{\n        box-sizing:border-box;\n    }\n    body{\n    }\n    :root {\n    --light: #fff;\n    --light2: #f4f4f4;\n    --light3: #fffff3;\n    --black: #566270;\n    --grey: #e0e3da;\n    --purple: #a593e0;\n    --red: #e53a40;\n    --yellow: #efdc05;\n    --blue: #0077c8;\n    --box-shadow: 9px 9px 16px -5px #757575;\n    --taxt-shadow: 2px 2px 2px #969696;\n}\n\n"]);
 
   _templateObject = function _templateObject() {
     return data;
